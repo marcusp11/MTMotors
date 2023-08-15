@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="animated fadeInDownBig">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="js/signup.js"></script>
+
+	<title>Sign Up</title>
+
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, " sans-serif";
+			font-size: 1rem;
+			line-height: 1.5;
+			color: #333;
+			overflow-x: hidden;
+			background-color: lightgray;
+
+
+		}
+
+
+		.navbar {
+			z-index: 10;
+		}
+
+		.my-nav .nav-link {
+			color: aliceblue;
+		}
+
+		.my-nav .nav-item {
+			padding-left: 160px;
+			font-size: 15px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.my-nav .navbar-brand {
+			color: aliceblue;
+		}
+
+		.navbar-toggler-icon {
+			color: aliceblue;
+		}
+
+
+		.wrap {
+			max-width: 960px;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			margin: auto;
+			text-align: center;
+
+		}
+
+		.background-pic-wrap {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 96vh;
+			width: 100%;
+			overflow: hidden;
+
+		}
+
+		.background-pic-wrap img {
+			min-height: 100%;
+			min-width: 100%;
+
+		}
+
+		.header-overlay {
+			height: 96vh;
+			width: 100vw;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: rgba(34, 33, 33, 0.65);
+			opacity: 0.80;
+
+		}
+
+		.header-content {
+			z-index: 2;
+			margin-top: 15%;
+			margin-right: 400px;
+			padding: 0 5rem;
+			color: aliceblue;
+
+		}
+
+		.header-content h6 {
+			font-size: 15px;
+			margin-right: 550px;
+			letter-spacing: 5px;
+			margin-bottom: 0;
+
+		}
+
+		.header-content h1 {
+			font-size: 55px;
+			margin-right: 190px;
+			margin-bottom: 0;
+
+		}
+
+		.header-content p {
+			font-size: 1.5rem;
+			margin-left: 190px;
+			text-align: justify;
+			padding-bottom: 2rem;
+			margin-top: 10px;
+		}
+
+		#donationPaper {
+			background-color: white;
+			border-radius: 20px;
+			height: 1400px;
+			width: 800px;
+			margin-left: 240px;
+			margin-top: 342px;
+			display: flex;
+			justify-content: center;
+		}
+	</style>
+</head>
+
+<body>
+
+
+
+
+	<div id="donationPaper">
+		<article>
+
+			<h1 style="font-size: 40px; padding-top: 20px; padding-left: 20px;">Join the Community!
+			</h1>
+
+
+
+			<h3><b>Sign Up Here</b></h3>
+
+			<form action="/signup" enctype='multipart/form-data' id="signupForm" method="POST">
+
+				<div style="width:350px" class="form-group">
+					<label for="frst">First Name</label>
+					<input type="name" placeholder="First Name :" class="form-control" id="first" name="first">
+					<br>
+					<label for="last">Last Name</label>
+					<input type="name" placeholder="Last Name :" class="form-control" id="last" name="last">
+
+					<br>
+					<label for="email">E-mail</label>
+					<input type="email" placeholder="E-mail :" class="form-control" id="email" name="email">
+					<br>
+					<label for="number">Phone Number</label>
+					<input type="text" placeholder="Phone Number :" class="form-control" id="number" name="number">
+					<br>
+					<label for="uName">Username</label>
+					<input type="name" placeholder="Username :" class="form-control" id="uname" name="uname">
+
+					<br>
+					<label for="psw">Password</label>
+					<input type="password" placeholder="Password :" class="form-control" id="psw" name="psw">
+					<br>
+
+					<button type="submit" class="btn btn-success my-btn mt-4">Submit</button>
+				</div>
+
+
+
+
+			</form>
+
+
+		</article>
+	</div>
+
+</body>
+
+</html>
